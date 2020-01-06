@@ -1,16 +1,16 @@
 spring:
   profiles:
-    active: dev
-    
+    active: 
+    - dev
+
 ---
 spring:
   profiles: dev
-    application:
-      name: microservicecloud-config-wzs-dev
+  application:
+    name: microservicecloud-config-wzs-dev
 
 ---
 spring:
   profiles: test
-    application:
-      name: microservicecloud-config-wzs-test
-  
+  application:
+    name: microservicecloud-config-wzs-test
